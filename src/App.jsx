@@ -1,18 +1,21 @@
 import { useState } from 'react'
+import Intro from './components/Intro'
+import Navbar from './components/Navbar'
+import About from './components/About'
+import Stack from './components/Stack'
+import Projects from './components/Projects'
+import Footer from './components/Footer'
 function App() {
-  
+
   return (
-    
+
     <>
-      <main className='bg-black flex flex-col h-screen w-screen text-white justify-center items-center text-[40px]'>
-        <div>Hi, I am Aaditya Agarwal and I am a</div>
-        <ul className='text-center text-[30px]'>
-          <li>Web Developer</li>
-          <li>Guitarist</li>
-          <li>Tennis Player</li>
-        </ul>
-      </main>
-      
+      <Navbar />
+      <Intro />
+      <About />
+      <Stack />
+      <Projects />
+      <Footer/>
     </>
   )
 }
