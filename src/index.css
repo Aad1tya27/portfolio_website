@@ -186,3 +186,12 @@
     /* box-shadow: 0_0px_2px_2px_rgba(256,256,256,0.5) ;  */
     /* box-shadow: 0px 0px 10px 5px rgb(0, 0, 0,0.5); */
  }
+
+ .swiper-pagination-bullet{
+    background-color: #cdcdcd;
+    /* opacity: 0.5; */
+ }
+
+ .swiper-pagination-bullet-active{
+    background-color: rgb(149, 47, 237);
+ }
