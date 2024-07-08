@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-full min-h-screen bg-[#141414] text-white flex flex-col items-center p-10'>
+    <div className='w-full min-h-[50vh] bg-[#141414] text-white flex flex-col items-center p-10'>
       <h1 className='text-[40px] font-medium text-center p-10'>About Me</h1>
       <div className="container flex flex-col md:flex-row items-center  justify-around gap-10">
         <div className="part1 flex justify-center items-center lg:w-[50%] ">
@@ -11,8 +11,8 @@ const About = () => {
             </p>
         </div>
         <div className="part2 w-[50%] flex justify-center items-center ">
-          <div className="extra border-2 border-white rounded-[50px]">
-            <div className="mypic w-[350px] border-4 border-purple-800 overflow-hidden rounded-[50px]">
+          <div className="extra shadow-[0_0px_2px_2px_rgba(107,33,168,0.5)] rounded-[50px]">
+            <div className="mypic w-[350px] border-[3px] border-purple-800 overflow-hidden rounded-[50px]">
               <img src="/mypic2.jpeg" alt="Picture Not Available" className=' scale-150' />
             </div>
           </div>
