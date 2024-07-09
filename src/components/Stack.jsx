@@ -5,7 +5,7 @@ import SkillCard from './skillCard'
 
 const Stack = () => {
   return (
-    <div className='w-full min-h-screen bg-black text-white p-10'>
+    <div id='skills' className='w-full min-h-screen bg-black text-white p-10'>
       {/* <h1 className='text-[40px] font-medium text-center p-5 '>Skills</h1>
       <div className='flex justify-around flex-wrap'>
         <div className="frontend w-[350px] lg:w-[200px] flex gap-5 flex-col items-center">

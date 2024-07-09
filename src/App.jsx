@@ -6,18 +6,19 @@ import Stack from './components/Stack'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import { BrowserRouter } from 'react-router-dom'
 function App() {
 
   return (
 
     <div>
-      <Navbar />
-      <Intro />
-      <About />
-      <Stack />
-      <Projects />
-      <Contact/>
-      <Footer/>
+        <Navbar />
+        <Intro />
+        <About />
+        <Stack />
+        <Projects />
+        <Contact />
+        <Footer />
     </div>
   )
 }

@@ -13,7 +13,7 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
 
   return (
-    <div className='w-full py-10 min-h-screen relative bg-[#141414] text-white flex flex-col items-center justify-center'>
+    <div id='projects' className='w-full py-10 min-h-screen relative bg-[#141414] text-white flex flex-col items-center justify-center'>
       <h1 className='text-[40px] font-medium text-center pb-10'>Projects</h1>
       <Swiper className=' w-full p-2'
         // install Swiper modules
@@ -46,16 +46,16 @@ const Projects = () => {
           <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
             <h1 className='text-3xl font-medium'>Task Scheduler</h1>
             {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
-            <div className='w-[80%] h-[70%]'>
+            <div className='w-[80%] h-[80%] overflow-auto'>
               <Tweet id='1799771836789485661' />
             </div>
           </ProjectCard>
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectCard classes={" flex flex-col justify-center items-center"}>
+          <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
             <h1 className='text-3xl font-medium'>Budget Buddy</h1>
             {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
-            <div className='w-[80%]'>
+            <div className='w-[80%] h-[70%] overflow-auto'>
               <Tweet id='1780158782783537552' />
             </div>
           </ProjectCard>
@@ -73,7 +73,7 @@ const Projects = () => {
           <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
             <h1 className='text-3xl font-medium'>Netflix UI Clone</h1>
             {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
-            <div className='w-[80%] h-[70%] overflow-auto'>
+            <div className='w-[80%] h-[70%] overflow-auto '>
               <Tweet id='1759123899382411339' />
             </div>
           </ProjectCard>
