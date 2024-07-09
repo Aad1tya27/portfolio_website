@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const form = useRef();
     const [isSubmitting, setIsSubmitting] = useState(false);
+    // const [show, setShow ] = useState(false);
     const sendEmail = (e) => {
         e.preventDefault();
         // console.log(form.current)
@@ -15,8 +16,16 @@ const Contact = () => {
             })
             .then(() => {
                 console.log('SUCCESS!');
+                // setShow(true);
+                // console.log('icon should appear')
+                // setTimeout(() => {
+                //     console.log("should disappear")
+                //     setShow(false);
+                // }, 5000);
+                
             }).catch((error)=>{
                 console.log('FAILED...', error.text);
+                
             })
             .finally(()=>{
                 setIsSubmitting(false);
@@ -67,6 +76,14 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
+            {/* {
+                show
+                ?
+                <div className="emailSent bg-white p-2 px-6 transition duration-500 border border-indigo-300 opacity-90 rounded-sm  z-30 fixed bottom-0 right-0 m-2  text-indigo-800 font-medium">Email Sent!</div>
+                :
+                <></>
+            } */}
+            
         </>
     )
 }

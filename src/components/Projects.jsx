@@ -25,7 +25,11 @@ const Projects = () => {
             slidesPerView: 1,
             spaceBetween: 40,
           },
-          768: {
+          600:{
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+          },
+          1024: {
             slidesPerView: 2.5,
             spaceBetween: 50,
           }
@@ -46,7 +50,7 @@ const Projects = () => {
           <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
             <h1 className='text-3xl font-medium'>Task Scheduler</h1>
             {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
-            <div className='w-[80%] h-[80%] overflow-auto'>
+            <div className='w-[80%] h-[70%] overflow-auto'>
               <Tweet id='1799771836789485661' />
             </div>
           </ProjectCard>

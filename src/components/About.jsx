@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="part2 w-[40vw] flex justify-center items-center ">
           <div className="extra shadow-[0_0px_2px_2px_rgba(107,33,168,0.5)] rounded-[50px]">
-            <div className="mypic w-[350px] border-[3px] border-purple-800 overflow-hidden rounded-[50px]">
+            <div className="mypic w-[230px] sm:w-[350px] border-[3px] border-purple-800 overflow-hidden rounded-[50px]">
               <img src="/mypic2.jpeg" alt="Picture Not Available" className=' scale-150' />
             </div>
           </div>

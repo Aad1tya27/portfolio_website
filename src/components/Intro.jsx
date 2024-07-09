@@ -1,16 +1,22 @@
 import React from 'react'
-
+import { Typewriter } from 'react-simple-typewriter';
 const Intro = () => {
     return (
         <>
             <div id='intro' className='bg-[#0f0f0f] w-full flex flex-col h-screen text-white justify-center items-center md:text-[40px]'>
-                <div className='poppins-light text-center text-[24px] md:text-[40px]'>Hi, <span className='font-medium'>I'm Aaditya Agarwal</span></div>
-                <div className='poppins-light text-center  text-[24px] md:text-[40px]'>I am a Full Stack Developer.</div>
-                {/* <ul className='text-center text-[30px]'>
-                    <li>Web Developer</li>
-                    <li>Guitarist</li>
-                    <li>Tennis Player</li>
-                </ul> */}
+                <div className='poppins-light text-center text-[25px] sm:text-[40px]'>Hi, <span className='font-medium'>I'm Aaditya Agarwal</span></div>
+                <div className='poppins-light text-center text-[25px] sm:text-[40px] text-[#c973ff]'>
+                    <span className='text-white'>I am a{' '} </span>
+                    <Typewriter
+                        words={['Full Stack Developer.', 'Guitarist.', 'Tennis Player.']}
+                        loop={true}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={4000}
+                    />
+                </div>
             </div>
         </>
     )
