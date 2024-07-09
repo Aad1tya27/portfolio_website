@@ -91,7 +91,7 @@ const Stack = () => {
       <h1 className='text-[40px] font-medium text-center p-10 '>Skills</h1>
       <div className='flex justify-around gap-10 flex-wrap'>
         <div className="miscellaneous w-[350px] lg:w-[200px] flex gap-5 flex-col items-center mb-5">
-          {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Miscellaneous</h1> */}
+          <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Miscellaneous</h1>
           <SkillCard name={"C"}>
             <img src="/c.svg" alt="" className='w-[25px] mx-2' />
           </SkillCard>
@@ -115,7 +115,7 @@ const Stack = () => {
           </SkillCard>
         </div>
         <div className="frontend w-[350px] lg:w-[200px] flex gap-5 flex-col items-center mb-5">
-          {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Frontend</h1> */}
+          <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Frontend</h1>
           <SkillCard name={"HTML"}>
             <img src="/html.svg" alt="" className='w-[25px] mx-2' />
           </SkillCard>
@@ -139,14 +139,14 @@ const Stack = () => {
           </SkillCard>
         </div>
         <div className="backendAndDatabase w-[350px] lg:w-[200px] flex gap-5 flex-col items-center  mb-5">
-          {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Backend</h1> */}
+          <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Backend</h1>
           <SkillCard name={"Node.js"}>
             <img src="/node.svg" alt="" className='w-[35px] mx-2' />
           </SkillCard>
           <SkillCard name={"Next.js"} >
             <img src="/next.png" alt="" className='w-[60px] mx-2 bg-white p-1 rounded-sm ' />
           </SkillCard>
-          {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Database</h1> */}
+          <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Database</h1>
           <SkillCard name={"MongoDB"}>
             <img src="/mongo.png" alt="" className='w-[35px] mx-2' />
           </SkillCard>
@@ -155,7 +155,7 @@ const Stack = () => {
           </SkillCard>
         </div>
         <div className="utils w-[350px] lg:w-[200px] flex gap-5 flex-col items-center mb-5">
-          {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Utils</h1> */}
+          <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Utils</h1>
           <SkillCard name={"Docker"}>
             <img src="/docker.svg" alt="" className='w-[35px] mx-2' />
           </SkillCard>
