@@ -15,7 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     function handleResize() {
       setWindowDimensions(getWindowDimensions());
-      console.log(windowDimensions);
+      // console.log(windowDimensions);
     }
 
     window.addEventListener('resize', handleResize);
@@ -54,7 +54,7 @@ const Navbar = () => {
               ?
               <>
                 <HashLink smooth to={"/#contact"}>Contact Me</HashLink>
-                <a href='/aaditya-agarwal-cv.pdf' download={false} className='bg-white font-medium rounded-md text-black p-2 px-4'>View Resume</a></>
+                <a href='https://drive.google.com/file/d/1AW6pfUbz_PwgrGyILLl8gy-JoTQ26hdV/view?usp=sharing' download={false} className='bg-white font-medium rounded-md text-black p-2 px-4'>View Resume</a></>
               :
               <>
                 {/* <HashLink smooth to={"/#contact"}>Contact Me</HashLink> */}
