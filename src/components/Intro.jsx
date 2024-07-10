@@ -11,10 +11,10 @@ const Intro = () => {
                         words={['Full Stack Developer.', 'Guitarist.', 'Tennis Player.']}
                         loop={true}
                         cursor
-                        cursorStyle='|'
+                        cursorStyle='_'
                         typeSpeed={70}
                         deleteSpeed={50}
-                        delaySpeed={4000}
+                        delaySpeed={1500}
                     />
                 </div>
             </div>
