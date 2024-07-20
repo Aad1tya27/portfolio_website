@@ -48,6 +48,15 @@ const Projects = () => {
       >
         <SwiperSlide>
           <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
+            <h1 className='text-3xl font-medium'>Meta Seeker</h1>
+            {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
+            <div className='w-[80%] h-[70%] overflow-auto'>
+              <Tweet id='1814643068504842341' />
+            </div>
+          </ProjectCard>
+        </SwiperSlide>
+        <SwiperSlide>
+          <ProjectCard classes={" flex flex-col justify-center gap-5 items-center"}>
             <h1 className='text-3xl font-medium'>Task Scheduler</h1>
             {/* <iframe src="https://task-scheduler-frontend.onrender.com/" name="Task Scheduler" title="Task Scheduler"></iframe> */}
             <div className='w-[80%] h-[70%] overflow-auto'>

@@ -69,8 +69,7 @@ const Contact = () => {
                                 }
                             </div>
                             <div className="p-2 w-full pt-8 mt-8 border-t border-opacity-50 border-gray-200 text-center">
-                                <div className=" ">Personal Email: &nbsp; <a className='hover:underline text-indigo-300' href='mailto: agarwal.aaditya2765@gmail.com'>agarwal.aaditya2765@gmail.com</a></div>
-                                <div className="">Education Email: &nbsp; <a className='hover:underline text-indigo-300' href='mailto: aaditya.agarwal.cse23@itbhu.ac.in'>aaditya.agarwal.cse23@itbhu.ac.in</a></div>
+                                <div className="">Email: &nbsp; <a className='hover:underline text-indigo-300' href='mailto: aaditya.agarwal.cse23@itbhu.ac.in'>aaditya.agarwal.cse23@itbhu.ac.in</a></div>
                             </div>
                         </form>
                     </div>

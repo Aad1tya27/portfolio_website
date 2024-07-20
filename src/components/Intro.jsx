@@ -11,7 +11,7 @@ const Intro = () => {
                         words={['Full Stack Developer.', 'Guitarist.', 'Tennis Player.']}
                         loop={true}
                         cursor
-                        cursorStyle='_'
+                        cursorStyle='|'
                         typeSpeed={70}
                         deleteSpeed={50}
                         delaySpeed={1500}
