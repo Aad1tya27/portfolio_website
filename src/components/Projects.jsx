@@ -1,5 +1,4 @@
-import React from 'react'
-import { EffectCoverflow, Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { EffectCoverflow, Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Tweet } from 'react-tweet';
 // Import Swiper styles

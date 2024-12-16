@@ -1,17 +1,28 @@
 import React from 'react'
 
-const SkillCard = ({name, children }) => {
-    return (
-        <div className=" text-center w-[200px] lg:w-full  bg-gradient-to-b  from-gray-600/40 to-gray-500/40  shadow-[0_0px_2px_2px_rgba(256,256,256,0.5)]  rounded-lg p-3 px-5 text-white">
-            <div className='flex justify-center items-center'>
-                {name?
-                <h2 className='text-kg font-medium p-2'>{name}</h2>
+const SkillCard = ({ name, children }) => {
+    return (<>
+        {
+            name!="" ?
+                <>
+                    <div className=" text-center w-[200px] lg:w-auto  bg-gray-800  bg-opacity-30 text-xl  p-3 px-6 text-white">
+                        < div className='flex justify-center items-center' >
+                            <h2 className='text-kg font-medium p-2'>{name}</h2>
+                            {children}
+                        </div >
+                        
+                    </div >
+                    
+                </>
                 :
-                <></>
-                }
-                {children}
-            </div>
-        </div>
+                <>
+                <div className=" w-[200px] lg:w-auto  bg-gray-800  bg-opacity-30 flex justify-center items-center p-3 px-6   ">
+                    {children}
+                </div >
+                </>
+        }
+        
+    </>
     )
 }
 

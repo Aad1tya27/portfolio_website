@@ -1,11 +1,10 @@
-import React from 'react'
 
 const Footer = () => {
   return (
     // <div className='w-full h-[30vh] bg-black text-white'>
     //   <h1 className='text-xl font-medium text-center p-10'>Footer</h1>
     // </div>
-    <footer className="text-white bg-[#141414] body-font">
+    <footer className="text-white bg-[#141414] body-font relative">
       <div className="container p-5 mx-auto flex items-center sm:flex-row flex-col">
 
         <p className="text-md text-white sm:ml-4 sm:pl-4 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Aaditya Agarwal
