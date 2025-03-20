@@ -40,6 +40,9 @@ const Stack = () => {
           <SkillCard name={"Node.js"}>
             <img src="/node.svg" alt="" className='w-[35px] mx-2' />
           </SkillCard>
+          <SkillCard name={"Golang"}>
+            <img src="/go.png" alt="" className='w-[35px] mx-2' />
+          </SkillCard>
           <SkillCard name={""} >
             <img src="/next.png" alt="" className='w-[100px]' />
           </SkillCard>
@@ -56,7 +59,7 @@ const Stack = () => {
         </div>
 
 
-        <h1 className='text-[35px] text-gray-300 text-center font-normal p-1 pt-5 underline underline-offset-8 decoration-1  '>Development Utils</h1>
+        <h1 className='text-[35px] text-gray-300 text-center font-normal p-1 pt-5 underline underline-offset-8 decoration-1'>Development Utils & Cloud</h1>
 
         <div className="utils w-[80%] flex flex-wrap gap-10  items-center m-5 justify-center">
           {/* <h1 className='text-3xl text-center font-normal p-1 pt-5 '>Utils</h1> */}
@@ -69,6 +72,9 @@ const Stack = () => {
           </SkillCard>
           <SkillCard name={"Postman"}>
             <img src="/postman.png" alt="" className='w-[35px] mx-2' />
+          </SkillCard>
+          <SkillCard name={"AWS"}>
+            <img src="/aws.png" alt="" className='w-[35px] mx-2' />
           </SkillCard>
         </div>
 
